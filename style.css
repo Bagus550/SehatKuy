@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #f08f69;
+    padding: 1px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #edc658;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    letter-spacing: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 80px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+section{
+    margin-bottom: 10px;
+}
+
+article{
+    float: left;
+    width: 70%;
+    box-shadow: 1px 1px 7px 1px ;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+}
+
+.artikel{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.sideBar{
+    float: left;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    transition: 0.5s;
+}
+
+footer{
+    background-color: #f08f69;
+    padding: 30px;
+    text-align: center;
+
+}
+
+section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media (max-width: 720px){
+    article, .sideBar {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px){
+    img{
+        width: 0px;
+        border: none;
+    }
+}
+
+nav a:hover{
+    background-color: #edc658;
+}
+
+nav a:active{
+    background-color: #edc658;
+}
+
+.produk{
+    display: flex;
+    border: solid 1px;
+    padding: 10px;
+}
+
+.produk1{
+    margin-top: 10px;
+    display: flex;
+    border: solid 1px;
+    padding: 10px;
+}
+
+.produk2{
+    margin-top: 10px;
+    display: flex;
+    border: solid 1px;
+    padding: 10px;
+}
+
+.produk3{
+    margin-top: 10px;
+    display: flex;
+    border: solid 1px;
+    padding: 10px;
+}
+
+.produk4{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    border: solid 1px;
+}
+
+.foto{
+    width: 200px;
+}
+
+p{
+    margin: 20px;
+}
+
+.beli{
+    margin: 20px;
+    font-size: 20px;
+    background-color: #f08f69;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
